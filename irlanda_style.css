@@ -1,0 +1,40 @@
+body{margin: 0%;}
+
+.all{
+    height: 60vh;
+    width: 83.333%;
+    border: .1em solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+
+}
+
+.canto-1, .meio, .canto-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 23.333%;
+    height: 23.333%;
+    border: .1em solid black;
+}
+.canto-1{
+    background-color: green;
+}
+.canto-2{
+    background-color: #f76201;
+}
+
+.t-m{
+    margin: 1em 0;
+}
