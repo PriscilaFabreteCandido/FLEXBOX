@@ -1,0 +1,26 @@
+div{
+    display: flex; 
+    width: 100vw; 
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.linha{
+    width: 33%; 
+    height: 100%;
+}
+
+.verde{
+    background-color: green;
+}
+
+.branco{
+    background-color: white;
+}
